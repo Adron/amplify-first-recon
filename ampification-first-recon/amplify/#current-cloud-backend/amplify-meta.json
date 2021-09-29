@@ -11,5 +11,57 @@
       "StackId": "arn:aws:cloudformation:us-west-2:887216112511:stack/amplify-ampificationfirstrec-dev-112443/862d18a0-2152-11ec-b4ed-026495490fdd",
       "AmplifyAppId": "d1hetyf9bcgbnl"
     }
+  },
+  "auth": {
+    "cognitodcd3c931": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation",
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "PREFERRED_USERNAME"
+        ],
+        "signupAttributes": [],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": []
+        },
+        "mfaTypes": [],
+        "verificationMechanisms": []
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ampificationfirstrec-dev-112443-deployment/amplify-cfn-templates/auth/cognitodcd3c931-cloudformation-template.yml",
+        "logicalId": "authcognitodcd3c931"
+      },
+      "lastPushTimeStamp": "2021-09-29T18:43:54.592Z",
+      "output": {
+        "IdentityPoolId": "us-west-2:e8bd6ca8-443e-48f0-ae5f-2291f4026589",
+        "IdentityPoolName": "ampificationfirstrec_identitypool_dcd3c931__dev"
+      },
+      "lastPushDirHash": "VWP2QObP4fnibmcOsTzvYKueKD0="
+    }
+  },
+  "interactions": {
+    "chattybot": {
+      "service": "Lex",
+      "providerPlugin": "awscloudformation",
+      "build": true,
+      "lastPackageTimeStamp": "2021-09-29T18:42:52.534Z",
+      "distZipFilename": "chattybot-6765666e314365444e68-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-ampificationfirstrec-dev-112443-deployment",
+        "s3Key": "amplify-builds/chattybot-6765666e314365444e68-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ampificationfirstrec-dev-112443-deployment/amplify-cfn-templates/interactions/chattybot-cloudformation-template.json",
+        "logicalId": "interactionschattybot"
+      },
+      "lastPushTimeStamp": "2021-09-29T18:43:54.592Z",
+      "output": {
+        "FunctionArn": "arn:aws:lambda:us-west-2:887216112511:function:ampificationfirstrec_cfnlambda_0a43a56a-dev",
+        "Region": "us-west-2",
+        "BotName": "BookTrip_dev"
+      },
+      "lastPushDirHash": "TVZsPOwOz0ZA7UFnJ1S290byVyc="
+    }
   }
 }

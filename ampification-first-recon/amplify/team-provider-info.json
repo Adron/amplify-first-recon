@@ -10,6 +10,17 @@
       "StackName": "amplify-ampificationfirstrec-dev-112443",
       "StackId": "arn:aws:cloudformation:us-west-2:887216112511:stack/amplify-ampificationfirstrec-dev-112443/862d18a0-2152-11ec-b4ed-026495490fdd",
       "AmplifyAppId": "d1hetyf9bcgbnl"
+    },
+    "categories": {
+      "auth": {
+        "cognitodcd3c931": {}
+      },
+      "interactions": {
+        "chattybot": {
+          "deploymentBucketName": "amplify-ampificationfirstrec-dev-112443-deployment",
+          "s3Key": "amplify-builds/chattybot-6765666e314365444e68-build.zip"
+        }
+      }
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+    "identityPoolName": "ampificationfirstrec_identitypool_dcd3c931",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognitodcd3c931",
+    "sharedId": "dcd3c931",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}

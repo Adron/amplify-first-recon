@@ -23,11 +23,5 @@
       "providerPlugin": "awscloudformation",
       "build": true
     }
-  },
-  "storage": {
-    "dynamo895d094f": {
-      "service": "DynamoDB",
-      "providerPlugin": "awscloudformation"
-    }
   }
 }
